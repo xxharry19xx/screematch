@@ -1,0 +1,16 @@
+otra forma de usar lambdas
+//        final int[] temporadaNum = {1}; // Usamos un array para manejar el contador en lambdas
+//        temporadas.forEach(t -> {System.out.println("Temporada " + temporadaNum[0] + ":");
+//            temporadaNum[0]++;
+//            t.episodios().forEach(e -> System.out.println(e.titulo()));
+//        });
+
+
+
+        //Mostrar solo el titulo de las temporadas
+//        for (int i = 0; i < datos.totalDeTemporadas() ; i++) {
+//            List<DatosEpisodio> episodiosTemporada = temporadas.get(i).episodios();
+//            for (int j = 0; j < episodiosTemporada.size(); j++) {
+//                System.out.println("Temporada " + (i + 1) + ":" + episodiosTemporada.get(j).titulo());
+//            }
+//        }
